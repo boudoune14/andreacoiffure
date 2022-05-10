@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Tangerine:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
+}
+  
+body {
+  font-family: 'Lora', serif;
+}
+/**********************NAVBAR**********************/
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.navbar-right {
+  font-family: 'Tangerine', cursive;;
+  font-size: 3.5rem;
+}
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(hautpage.jpeg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 650px;
+  }
+  h1 {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    color: rgb(253, 250, 222);
+    font-size: 15rem;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+  }
+  #premierTrait {
+    height: 1px;
+    width: 40%;
+    margin: -3px auto;
+    background-color: rgb(253, 250, 222);
+    box-shadow: 1px 3px 2px black;
+  }
+  h2 {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    color:rgb(253, 250, 222);
+    font-size: 8rem;
+    text-shadow: 1px 3px 2px black;
+  }
+  /**********************************DESCRIPTION***************************/
+  .description {
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  p {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  /**********************************ARTISTES******************************/
+  h3 {
+    font-family: "Syne Mono";
+    font-size: 2em;
+  }
+  img {
+    margin-bottom: 15%;
+  }
+  h4 {
+    font-family: "Syne Mono";
+    font-size: 3rem;
+  }
+  .bg-2 {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(253, 250, 222);
+  }
+  .groupe {
+    margin-bottom: 2%;
+  }
+  /***********************************************Tarifs************************/
+  .text-custom,
+  .navbar-custom .navbar-nav li a:hover,
+  .navbar-custom .navbar-nav li a:active,
+  .navbar-custom .navbar-nav li.active a,
+  .service-box .services-icon,
+  .price-features p i,
+  .faq-icon,
+  .social .social-icon:hover {
+      color: #f6576e !important;
+  }
+  
+  .bg-custom,
+  .btn-custom,
+  .timeline-page .timeline-item .date-label-left::after,
+  .timeline-page .timeline-item .duration-right::after,.back-to-top:hover {
+      background-color: #f6576e;
+  }
+  
+  .btn-custom,
+  .custom-form .form-control:focus,
+  .social .social-icon:hover,
+  .registration-input-box:focus {
+      border-color: #f6576e;
+  }
+  
+  .service-box .services-icon,
+  .price-features p i {
+      background-color: rgba(246, 87, 110, 0.1);
+  }
+  
+  .btn-custom:hover,
+  .btn-custom:focus,
+  .btn-custom:active,
+  .btn-custom.active,
+  .btn-custom.focus,
+  .btn-custom:active,
+  .btn-custom:focus,
+  .btn-custom:hover,
+  .open > .dropdown-toggle.btn-custom {
+      border-color: #e45267;
+      background-color: #e45267;
+  }
+  
+  
+  .price-box {
+    padding: 40px 50px;
+}
+  
+  .plan-price h5 {
+    text-align: center;
+    color: rgb(253, 250, 222);
+    font-size: 4em;
+    margin-top: 10px;
+    text-shadow: 1px 3px 2px black;
+  }
+  
+  .price-features p i {
+      height: 20px;
+      width: 20px;
+      display: inline-block;
+      text-align: center;
+      line-height: 14px;
+      font-size: 18px;
+      border-radius: 50%;
+      margin-right: 20px;
+  }
+  .price-features p {
+    font-size: 1.5em;
+  }
+  /****************************************CONTACT********************/
+  .bg-3 {
+    background: rgba(0, 0, 0, 0.473);
+  }
+  #contact {
+    width: 100%;
+  }
+  .submit {
+    margin: 5%;
+  }
+  /*************************************FOOTER**************************/
+  img {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+
+  textarea {
+    resize: none;
+  }
+/***********************************Evenements********************/
+.tremplin {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(0, 0, 0, 0.473);
+  color: #f5f5f5;
+}
+
+/***********************************PHOTOS****************/
+.gal {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  column-count: 3;
+}	
+.gal img{
+  width: 100%; padding: 7px 0;
+}
+@media (max-width: 500px) {
+  .gal {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    }
+}
